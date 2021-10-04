@@ -58,14 +58,14 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faPhoneVolume} />
                   </div>
                   <div>
-                    <h5>+1 8 800 555 35 35</h5>
+                    <h5>+880175090000</h5>
                   </div>
                 </div>
                 <div className="map d-flex align-items-center justify-content-center text-center">
                   <div>
                     <p>
-                      160 Broadway, New York, NY 10038,
-                      <br /> 102 1st Avenue, New York, NY 100
+                    Dhaka Housing Jame Masjid,
+                      <br /> 87 Dhaka Housing, Dhaka
                     </p>
                   </div>
                 </div>
