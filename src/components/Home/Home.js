@@ -31,6 +31,7 @@ const Home = () => {
             </div>
             <div className="text-area">
               <h4 className='text-center'>{course.name}</h4>
+              <p className='text-center'>Course-Quantity: {course.courseQuantity}</p>
               <p className='fw-bold text-center'>Price: {course.price}</p>
               <div className='d-flex justify-content-around'>
               <button className='btn btn-outline-success'>Details</button>
