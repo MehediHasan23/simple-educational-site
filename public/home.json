@@ -1,0 +1,27 @@
+[
+  {
+    "name": "A Better Start to Reading",
+    "img": "https://prod-discovery.edx-cdn.org/media/course/image/d342270e-c6a2-4e34-a56d-0d3094376956-c4495165ea78.small.jpg",
+    "price": "$99",
+    "id": 1
+  },
+  {
+    "name": "Intercultural Competency",
+    "img": "https://prod-discovery.edx-cdn.org/media/course/image/5415b854-0d78-4d0e-8b32-9cb5e4719278-19d92e51cea0.small.jpg",
+    "price": "$106",
+    "id": 2
+  },
+  {
+    "name": "Data Science: R Basics",
+    "img": "https://prod-discovery.edx-cdn.org/media/course/image/91f52ef3-fa3f-4934-9d19-8d5a32635cd4-d99e27f09d19.small.jpg",
+    "price": "$50",
+    "id": 3
+  },
+  {
+    "name": "Improvement Science",
+    "name2":"in Education",
+    "img": "https://prod-discovery.edx-cdn.org/media/course/image/d09a5a9b-38f7-4f01-b6ff-6de504fb3b61-52bc51945005.small.jpg",
+    "price": "$80",
+    "id": 4
+  }
+]

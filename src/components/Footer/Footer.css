@@ -1,10 +1,9 @@
 .icon {
   margin: 5px;
   padding: 5px;
-  background-color: rgb(46, 46, 46);
-  /* border-radius: 5px; */
   color: rgb(155, 155, 155);
   font-size: 30px;
+  
 }
 .icon:hover {
   background-color: rgb(250, 25, 25);
@@ -26,10 +25,10 @@
 }
 .footer-container {
   background-color: #191919;
-  padding: 50px;
+  padding: 20px;
   color: rgb(216, 209, 209);
 }
 .foter-phone-icon {
   font-size: 30px;
-  color: red;
+  color: rgb(148, 138, 138);
 }

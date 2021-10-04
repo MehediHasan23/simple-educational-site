@@ -1,0 +1,19 @@
+.details h1{
+  font-size: 50px;
+  letter-spacing: 2px;
+  
+}
+
+.details p{
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.contact-container{
+  height: 100vh;
+  background-color: #bdc3c75e;
+  padding: 20px;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}

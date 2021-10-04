@@ -1,0 +1,12 @@
+.service-container{
+  border: 3px solid gray;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+
+.service-container p{
+  text-transform: capitalize;
+  text-align: justify;
+}

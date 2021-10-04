@@ -1,0 +1,24 @@
+ .title{
+  background: cadetblue;
+  color: #fff;
+  margin-top: 40px;
+  padding: 40px 0 50px;
+}
+
+.cart{
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.courses{
+  margin: 100px 100px;
+}
+
+.text-area{
+  margin-top: 20px;
+  margin: 10px;
+  line-height: 50px;
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookSquare,
@@ -21,7 +20,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-5">
               <div className="left-container text-start">
-                <h1>Biona Sports Club</h1>
+                <h3>Interested in this course for your business or team?</h3>
                 <div className="icons-container d-flex text-center ">
                   <div className="icon">
                     <FontAwesomeIcon icon={faInstagramSquare} />
@@ -36,16 +35,9 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faFacebookSquare} />
                   </div>
                 </div>
-                <p className="mt-4 ">
-                  <small>
-                    *These statements have not been evaluated by the Food and
-                    Drug Administration. These products are not intended to
-                    diagnose.
-                  </small>
-                </p>
 
-                <p className="mt-5">
-                  <small>Zemez © . All rights reserved.</small>
+                <p className="mt-2">
+                  <small>Edx © . All rights reserved.</small>
                 </p>
               </div>
             </div>
@@ -53,21 +45,14 @@ const Footer = () => {
               <div className="footer-menu-container">
                 <ul>
                   <li className="footer-menu">Home</li>
-                  <li className="footer-menu">Services</li>
-                  <li className="footer-menu">Sports</li>
-                  <li className="footer-menu">Contact us</li>
-                  <li className="footer-menu"> About us</li>
+                  <li className="footer-menu">About</li>
+                  <li className="footer-menu">Blogs</li>
                 </ul>
               </div>
             </div>
             <div className="col-md-5">
               <div className="right-footer-container">
-                <h3>Sign up for the newsletter</h3>
-                <input
-                  className="footer-input"
-                  type="text"
-                  placeholder="Enter Email"
-                />
+                <h4 className='text-center'>Contact us</h4>
                 <div className="phone d-flex align-items-center justify-content-center mt-4">
                   <div className="foter-phone-icon">
                     <FontAwesomeIcon icon={faPhoneVolume} />
