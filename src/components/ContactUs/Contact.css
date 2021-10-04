@@ -1,5 +1,5 @@
 .details h1{
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 2px;
   
 }
@@ -19,7 +19,7 @@
   padding: 20px;
   overflow: hidden;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 .contact-section{
   background-color: lightgrey;

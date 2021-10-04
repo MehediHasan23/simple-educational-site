@@ -17,9 +17,9 @@ const Home = () => {
       <Menubar></Menubar>
       <Header></Header>
       
-      {/* <div>
-        <h1 className='title text-center'>Education Courses</h1>
-      </div> */}
+      <div>
+        <h1 className='title text-center mt-5'><span className='text-danger'>OUR LATEST</span> COURSE</h1>
+      </div>
       <div className="courses">
         <div className="row">
           {courses?.map((course)=> 

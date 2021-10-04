@@ -14,6 +14,7 @@ const Services = () => {
     <div className='services-field'>
       <Menubar/>
       <div className="container ">
+      <h1 className='text-center mt-5 '>OUR <span className='text-danger'>COURSES</span></h1>
       {
         services.map(service => <Service key={service.courseID} service = {service}></Service>)
       }

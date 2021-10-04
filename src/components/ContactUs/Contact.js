@@ -7,14 +7,16 @@ const Contact = () => {
   return (
     <div className='contact-section'>
       <Menubar/>
-      <div className="row   f-flex align-items-center contact-container bg-light">
+      <h1 className='text-center mt-5'><span className='text-danger'>CONTACT </span>WITH US</h1>
+      <div className="row  f-flex align-items-center contact-container bg-light ms-2 ps-2 ">
+        
         <div className="col-6 text-center details">
           <h1><span className='text-warning title-word'>Build the</span> <br />  workforce of <br /> tomorrow<span className='text-warning' >,</span> <span className='text-warning'>today</span></h1>
           <p>Create essential skills pathways with verifiable and stackable credentials to upskill and train every employee with the highest quality elearning experiences, in today's most job-relevant subject areas. Unlock the potential of your organization with edX For Business.</p>
         </div>
 
         <div className="col-6 ">
-          <h1 className='text-center'>Learning Starts Here <br />
+          <h1 className='text-center'><span className='text-warning'>Learning Starts Here</span> <br />
             Let's build your course list</h1>
           <div>
                   <form className="row g-3">

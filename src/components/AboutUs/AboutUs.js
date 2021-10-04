@@ -7,8 +7,8 @@ const AboutUs = () => {
   return (
     <div className ='about-container'>
       <Menubar/>
-      <h1 className='text-center mt-5 '>ABOUT US</h1>
-      <div className='row mt-5 p-2 mx-3 bg-light about-section'>
+      <h1 className='text-center mt-5 '><span className='text-danger'>ABOUT</span> US</h1>
+      <div className='row mt-5 p-2 mx-3 bg-light about-section '>
       <div className="col-6 text-center">
         <h3 className='text-warning'>About our course</h3>
         <p>There are countless online education marketplaces on the internet.
@@ -29,7 +29,7 @@ const AboutUs = () => {
       </div>
       <div className="col-6 text-center">
       <div>
-      <h5 className='text-warning'>Our Vision</h5>
+      <h5 className='text-warning'>Our Mission</h5>
        <p>
        To create an alternate platform for students who wish to continue
         and complete courses by attending live online courses, using a
@@ -47,11 +47,7 @@ const AboutUs = () => {
           <label for="exampleFormControlInput1" className="form-label ">Email address</label>
           <input  type="email" className="form-control" id="exampleFormControlInput1" placeholder="enter your email"/>
         </div>
-        <div className="mb-3">
-          <label for="exampleFormControlTextarea1" className="form-label">Example textarea</label>
-          <textarea className="form-control" id="exampleFormControlTextarea1" placeholder='write your comment' rows="3"></textarea>
-          
-        </div>
+        
         <button className="btn btn-outline-secondary">SUBMIT</button>
         </div>
       </div>
