@@ -5,18 +5,14 @@
   font-size: 30px;
   
 }
-.icon:hover {
-  background-color: rgb(250, 25, 25);
-}
+
 .footer-menu {
   list-style: none;
   margin-top: 20px;
   font-size: 16px;
   cursor: pointer;
 }
-.footer-menu:hover {
-  color: red;
-}
+
 .footer-input {
   padding: 8px;
   border: none;
@@ -24,11 +20,11 @@
   background-color: gray;
 }
 .footer-container {
-  background-color: #191919;
+ background-image: linear-gradient(to right, #4b6584 100%, #a5b1c2 );
   padding: 20px;
   color: rgb(216, 209, 209);
 }
-.foter-phone-icon {
+.footer-phone-icon {
   font-size: 30px;
   color: rgb(148, 138, 138);
 }

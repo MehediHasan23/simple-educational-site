@@ -10,16 +10,16 @@ const Menubar = () => {
             <div className="menu-container">
               <ul className="d-flex align-items-end justify-content-end">
                 <Link to="/home" className="items">
-                  <li>Home</li>
+                  <li>HOME</li>
                 </Link>
                 <Link to="/services" className="items">
-                  <li>Services</li>
+                  <li>SERVICE</li>
                 </Link>
                 <Link to="/about" className="items">
-                  <li>About Us</li>
+                  <li>ABOUT US</li>
                 </Link>
                 <Link to="/contact" className="items">
-                  <li>Contact Us</li>
+                  <li>CONTACT US</li>
                 </Link>
               </ul>
             </div>

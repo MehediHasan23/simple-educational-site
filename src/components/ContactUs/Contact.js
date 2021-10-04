@@ -5,11 +5,11 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='contact-section'>
       <Menubar/>
-      <div className="row   f-flex align-items-center contact-container">
+      <div className="row   f-flex align-items-center contact-container bg-light">
         <div className="col-6 text-center details">
-          <h1>Build the <br />  workforce of <br /> tomorrow, today</h1>
+          <h1><span className='text-warning title-word'>Build the</span> <br />  workforce of <br /> tomorrow<span className='text-warning' >,</span> <span className='text-warning'>today</span></h1>
           <p>Create essential skills pathways with verifiable and stackable credentials to upskill and train every employee with the highest quality elearning experiences, in today's most job-relevant subject areas. Unlock the potential of your organization with edX For Business.</p>
         </div>
 
@@ -58,7 +58,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="col-12">
-            <button type="submit" className="btn btn-primary">Sign in</button>
+            <button type="submit" className="btn btn-outline-warning w-50">Sign in</button>
           </div>
         </form>
           </div>

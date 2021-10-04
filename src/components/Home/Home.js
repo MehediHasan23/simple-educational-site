@@ -13,7 +13,7 @@ const Home = () => {
     .then(data => setCourses(data))
   },[])
   return (
-    <div>
+    <div className='home-section'>
       <Menubar></Menubar>
       <Header></Header>
       
@@ -25,16 +25,16 @@ const Home = () => {
           {courses?.map((course)=> 
           <div key={course.id} className="col-md-3">
             
-          <div className="cart">
+          <div className="cart bg-light">
             <div className="cart-details">
               <img className='img-fluid' src={course.img} alt="" />
             </div>
             <div className="text-area">
-              <h4>{course.name}</h4>
-              <p className='fw-bold'>Price: {course.price}</p>
+              <h4 className='text-center'>{course.name}</h4>
+              <p className='fw-bold text-center'>Price: {course.price}</p>
               <div className='d-flex justify-content-around'>
-              <button className='btn btn-outline-warning'>Details</button>
-              <button className='btn btn-outline-warning'>Enroll</button>
+              <button className='btn btn-outline-success'>Details</button>
+              <button className='btn btn-outline-success'>Enroll</button>
               </div>
               
             </div>

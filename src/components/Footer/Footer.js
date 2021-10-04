@@ -61,10 +61,7 @@ const Footer = () => {
                     <h5>+1 8 800 555 35 35</h5>
                   </div>
                 </div>
-                <div className="map d-flex align-items-center justify-content-center">
-                  <div className="foter-phone-icon">
-                    <FontAwesomeIcon icon={faMapMarkedAlt} />
-                  </div>
+                <div className="map d-flex align-items-center justify-content-center text-center">
                   <div>
                     <p>
                       160 Broadway, New York, NY 10038,

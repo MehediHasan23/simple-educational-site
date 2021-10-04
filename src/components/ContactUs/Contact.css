@@ -8,12 +8,19 @@
   font-size: 20px;
   letter-spacing: 2px;
 }
+.title-word{
+  letter-spacing: 10px;
+  font-size: 80px;
+}
 
 .contact-container{
   height: 100vh;
-  background-color: #bdc3c75e;
+  /* background-color: wheat; */
   padding: 20px;
   overflow: hidden;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+.contact-section{
+  background-color: lightgrey;
 }

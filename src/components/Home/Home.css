@@ -1,8 +1,12 @@
- .title{
+ /* .title{
   background: cadetblue;
   color: #fff;
   margin-top: 40px;
   padding: 40px 0 50px;
+} */
+
+.home-section{
+  background-color: rgba(211, 211, 211, 0.671);
 }
 
 .cart{

@@ -1,0 +1,13 @@
+.about-container{
+  background-color: lightgrey;
+}
+
+.about-section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 10px;
+}
+
+/* .about-section p{
+  text-align: justify;
+} */
