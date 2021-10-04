@@ -20,9 +20,10 @@
 }
 .regular-btn {
   border: 1px solid #f3ca12d2;
+  
   outline: 0;
   background-color: transparent;
-  color: #fff;
+  color: rgba(255, 238, 0, 0.63);
   padding: 12px 30px;
   font-weight: 600;
   border-radius: 5px;
