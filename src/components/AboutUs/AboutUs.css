@@ -1,13 +1,17 @@
 .about-container{
   background-color: lightgrey;
+  
 }
 
 .about-section{
   margin-top: 100px;
   margin-bottom: 100px;
   padding: 10px;
+  /* height: 100vh; */
 }
 
-/* .about-section p{
+.about-section p{
   text-align: justify;
-} */
+  margin-top: 20px;
+  line-height: 35px;
+}

@@ -1,5 +1,5 @@
 .details h1{
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: 2px;
   
 }
@@ -7,10 +7,11 @@
 .details p{
   font-size: 20px;
   letter-spacing: 2px;
+  text-align: justify;
 }
 .title-word{
   letter-spacing: 10px;
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .contact-container{

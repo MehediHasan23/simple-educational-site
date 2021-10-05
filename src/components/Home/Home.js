@@ -34,14 +34,14 @@ const Home = () => {
               <p className='text-center'>Course-Quantity: {course.courseQuantity}</p>
               <p className='fw-bold text-center'>Price: {course.price}</p>
               <div className='d-flex justify-content-around'>
-              <button className='btn btn-outline-success'>Details</button>
-              <button className='btn btn-outline-success'>Enroll</button>
+              <button className='btn btn-primary'>Details</button>
+              <button className='btn btn-primary'>Enroll</button>
               </div>
               
+              </div>
             </div>
-          </div>
-        </div>
-          )
+            </div>
+           )
 
           }
         </div>

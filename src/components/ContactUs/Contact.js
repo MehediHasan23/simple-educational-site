@@ -8,16 +8,14 @@ const Contact = () => {
     <div className='contact-section'>
       <Menubar/>
       <h1 className='text-center mt-5'><span className='text-danger'>CONTACT </span>WITH US</h1>
-      <div className="row  f-flex align-items-center contact-container bg-light ms-2 ps-2 ">
-        
-        <div className="col-6 text-center details">
-          <h1><span className='text-warning title-word'>Build the</span> <br />  workforce of <br /> tomorrow<span className='text-warning' >,</span> <span className='text-warning'>today</span></h1>
-          <p>Create essential skills pathways with verifiable and stackable credentials to upskill and train every employee with the highest quality elearning experiences, in today's most job-relevant subject areas. Unlock the potential of your organization with edX For Business.</p>
+      <div className="row d-flex justify-content-around    align-items-center contact-container bg-light ">
+        <div className="col-7 text-center details">
+        <h1><span className='text-warning title-word'>Build the</span> <br />  workforce of <br /> tomorrow<span className='text-warning' >,</span> <span className='text-warning'>today</span></h1>
+          <p className='mt-5'>Create essential skills pathways with verifiable and stackable credentials to upskill and train every employee with the highest quality elearning experiences, in today's most job-relevant subject areas. Unlock the potential of your organization with edX For Business.</p>
         </div>
 
-        <div className="col-6 ">
-          <h1 className='text-center'><span className='text-warning'>Learning Starts Here</span> <br />
-            Let's build your course list</h1>
+        <div className="col-4 ">
+         
           <div>
                   <form className="row g-3">
           <div className="col-md-6">
@@ -60,7 +58,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="col-12">
-            <button type="submit" className="btn btn-outline-warning w-50">Sign in</button>
+            <button type="submit" className="btn btn-warning w-25">Sign in</button>
           </div>
         </form>
           </div>

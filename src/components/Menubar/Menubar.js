@@ -16,10 +16,10 @@ const Menubar = () => {
                   <li>SERVICE</li>
                 </Link>
                 <Link to="/about" className="items">
-                  <li>ABOUT US</li>
+                  <li>ABOUT</li>
                 </Link>
                 <Link to="/contact" className="items">
-                  <li>CONTACT US</li>
+                  <li>CONTACT</li>
                 </Link>
               </ul>
             </div>
